@@ -19,6 +19,8 @@
 		7141B280193DABD30084F9F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7141B268193DABD30084F9F1 /* UIKit.framework */; };
 		7141B288193DABD30084F9F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7141B286193DABD30084F9F1 /* InfoPlist.strings */; };
 		7141B28A193DABD30084F9F1 /* TheLastTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141B289193DABD30084F9F1 /* TheLastTimeTests.m */; };
+		7141B296193DAC570084F9F1 /* LastTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141B294193DAC570084F9F1 /* LastTimeViewController.m */; };
+		7141B297193DAC570084F9F1 /* LastTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7141B295193DAC570084F9F1 /* LastTimeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		7141B285193DABD30084F9F1 /* TheLastTimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TheLastTimeTests-Info.plist"; sourceTree = "<group>"; };
 		7141B287193DABD30084F9F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7141B289193DABD30084F9F1 /* TheLastTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheLastTimeTests.m; sourceTree = "<group>"; };
+		7141B293193DAC570084F9F1 /* LastTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastTimeViewController.h; sourceTree = "<group>"; };
+		7141B294193DAC570084F9F1 /* LastTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastTimeViewController.m; sourceTree = "<group>"; };
+		7141B295193DAC570084F9F1 /* LastTimeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LastTimeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				7141B273193DABD30084F9F1 /* AppDelegate.h */,
 				7141B274193DABD30084F9F1 /* AppDelegate.m */,
+				7141B293193DAC570084F9F1 /* LastTimeViewController.h */,
+				7141B294193DAC570084F9F1 /* LastTimeViewController.m */,
+				7141B295193DAC570084F9F1 /* LastTimeViewController.xib */,
 				7141B276193DABD30084F9F1 /* Images.xcassets */,
 				7141B26B193DABD30084F9F1 /* Supporting Files */,
 			);
@@ -221,6 +229,7 @@
 			files = (
 				7141B26F193DABD30084F9F1 /* InfoPlist.strings in Resources */,
 				7141B277193DABD30084F9F1 /* Images.xcassets in Resources */,
+				7141B297193DAC570084F9F1 /* LastTimeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +250,7 @@
 			files = (
 				7141B275193DABD30084F9F1 /* AppDelegate.m in Sources */,
 				7141B271193DABD30084F9F1 /* main.m in Sources */,
+				7141B296193DAC570084F9F1 /* LastTimeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
